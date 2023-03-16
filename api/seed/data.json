@@ -1,0 +1,293 @@
+[
+{
+    "model": "api.truck",
+    "pk": 1,
+    "fields": {
+        "plateNumber": "01",
+        "registrationNumber": "01"
+    }
+},
+{
+    "model": "api.truck",
+    "pk": 2,
+    "fields": {
+        "plateNumber": "02",
+        "registrationNumber": "02"
+    }
+},
+{
+    "model": "api.truck",
+    "pk": 3,
+    "fields": {
+        "plateNumber": "03",
+        "registrationNumber": "03"
+    }
+},
+{
+    "model": "api.truck",
+    "pk": 4,
+    "fields": {
+        "plateNumber": "0004",
+        "registrationNumber": "0005"
+    }
+},
+{
+    "model": "api.truck",
+    "pk": 5,
+    "fields": {
+        "plateNumber": "00034",
+        "registrationNumber": "00023"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 1,
+    "fields": {
+        "name": "Tokyo"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 2,
+    "fields": {
+        "name": "Paris"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 3,
+    "fields": {
+        "name": "Casablanca"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 4,
+    "fields": {
+        "name": "Kuala lampur"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 5,
+    "fields": {
+        "name": "Fes"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 6,
+    "fields": {
+        "name": "Berlin"
+    }
+},
+{
+    "model": "api.city",
+    "pk": 7,
+    "fields": {
+        "name": "Seoul"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 1,
+    "fields": {
+        "name": "Kolo"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 3,
+    "fields": {
+        "name": "French"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 4,
+    "fields": {
+        "name": "Arabic"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 5,
+    "fields": {
+        "name": "Japanese"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 6,
+    "fields": {
+        "name": "English"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 7,
+    "fields": {
+        "name": "German"
+    }
+},
+{
+    "model": "api.language",
+    "pk": 8,
+    "fields": {
+        "name": "Spanish"
+    }
+},
+{
+    "model": "api.district",
+    "pk": 1,
+    "fields": {
+        "name": "Fujji",
+        "city": 1
+    }
+},
+{
+    "model": "api.district",
+    "pk": 2,
+    "fields": {
+        "name": "Nakazaki",
+        "city": 1
+    }
+},
+{
+    "model": "api.district",
+    "pk": 3,
+    "fields": {
+        "name": "Narjis",
+        "city": 5
+    }
+},
+{
+    "model": "api.district",
+    "pk": 4,
+    "fields": {
+        "name": "Baftouh",
+        "city": 5
+    }
+},
+{
+    "model": "api.district",
+    "pk": 5,
+    "fields": {
+        "name": "Center",
+        "city": 5
+    }
+},
+{
+    "model": "api.district",
+    "pk": 6,
+    "fields": {
+        "name": "Dimber",
+        "city": 2
+    }
+},
+{
+    "model": "api.district",
+    "pk": 7,
+    "fields": {
+        "name": "Lomber",
+        "city": 2
+    }
+},
+{
+    "model": "api.district",
+    "pk": 8,
+    "fields": {
+        "name": "Noca",
+        "city": 2
+    }
+},
+{
+    "model": "api.driver",
+    "pk": 1,
+    "fields": {
+        "name": "Franc olivier",
+        "mobileNumber": "+212498574985",
+        "email": "y@y.com",
+        "city": 1,
+        "district": 1,
+        "aasignedTruck": 1,
+        "created_at": "2023-03-16",
+        "language": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "api.driver",
+    "pk": 2,
+    "fields": {
+        "name": "Nada fares",
+        "mobileNumber": "+212498343985",
+        "email": "nada@y.com",
+        "city": 5,
+        "district": 1,
+        "aasignedTruck": 2,
+        "created_at": "2023-03-16",
+        "language": [
+            1,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "api.driver",
+    "pk": 3,
+    "fields": {
+        "name": "Youseef",
+        "mobileNumber": "+212434243985",
+        "email": "youssef@yemail.com",
+        "city": 2,
+        "district": 1,
+        "aasignedTruck": 4,
+        "created_at": "2023-03-16",
+        "language": [
+            1,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "api.driver",
+    "pk": 4,
+    "fields": {
+        "name": "Dana james",
+        "mobileNumber": "+212434245985",
+        "email": "dana@yemail.com",
+        "city": 5,
+        "district": 8,
+        "aasignedTruck": 3,
+        "created_at": "2023-03-16",
+        "language": [
+            1,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "api.driver",
+    "pk": 5,
+    "fields": {
+        "name": "Toto",
+        "mobileNumber": "+212434245285",
+        "email": "toto@yemail.com",
+        "city": 7,
+        "district": 7,
+        "aasignedTruck": 5,
+        "created_at": "2023-03-16",
+        "language": [
+            8,
+            1,
+            7
+        ]
+    }
+}
+]
