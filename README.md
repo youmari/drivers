@@ -74,6 +74,11 @@ python3 manage.py loaddata seed/data.json
 ```bash
 python3 manage.py runserver
 ```
+## Testing 
+to test the Api run the following command: 
+```bash
+./manage.py test api       
+````
 
 ## Potential improvements 
 - add authentication
